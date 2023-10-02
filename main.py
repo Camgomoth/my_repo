@@ -184,8 +184,6 @@ def main(folder_path):
         handle_archive(file, folder_path, "ARCHIVES")
 
     get_folder_objects(folder_path)
-
-if __name__ == '__main__':
     path = sys.argv[1]
     print(f"Start in {path}")
 
@@ -194,6 +192,10 @@ if __name__ == '__main__':
   
 
 
-    main(arg.resolve())
+   
+
+if __name__ == '__main__':
+   main(arg.resolve())
+
 
 
